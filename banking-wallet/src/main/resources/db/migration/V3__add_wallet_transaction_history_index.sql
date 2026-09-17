@@ -1,0 +1,2 @@
+CREATE INDEX idx_wallet_transactions_wallet_created
+ON wallet_transactions(wallet_id, created_at);
